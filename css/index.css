@@ -1,0 +1,173 @@
+body {
+     margin: 0;
+     padding: 0;
+     font-family: 'Courier New', Courier, monospace;
+}
+
+/* HEADER */ 
+.header { 
+    background-color: rgb(70, 18, 94);
+    padding: 20px;
+
+}
+
+.header a {
+    margin-left: 80px;
+    font-size: x-large;
+    text-decoration: none;
+    font-weight :bold;
+    color : white;
+    cursor: pointer;
+}
+
+/* MAIN */
+.main {
+ padding-top: 20px;
+}
+
+.container-main-header {
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 7px;
+    border: 1px solid purple;
+    margin-bottom: 5px;
+}
+
+.container-main-header h1 {
+    font-size:x-large;
+    color: rgb(128, 0, 100);
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container-main-header a {
+    background-color: rgb(177, 174, 4);
+    color:  white;
+    border: none;
+    border-radius: 3px;
+    font-size :small;
+    padding: 13px;
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container-main {
+    width: 918px;
+    padding: 7px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid purple; 
+    border-radius: 8px; 
+}
+
+th {
+    padding-left: 8px;
+    background-color:rgb(70, 18, 94);
+    border: 1px solid rgb(182, 55, 182); 
+    color: white;
+    text-align: left;
+}
+
+td {
+border: 1px solid purple; 
+padding: 5px; 
+}
+
+.actions {
+    display: flex;
+    gap: 10px; /* Pode ajustar para aumentar ou diminuir o espaço entre itens */
+    display: flex;
+   align-items: center;
+   justify-content: center;
+  
+}
+
+
+.blue {
+    text-decoration: none;
+    border-radius: 2px;
+    background-color: rgb(70, 143, 240);
+    color: white;
+    padding: 12px;
+    width: auto;
+}
+
+.green {
+    text-decoration: none;
+    border-radius: 2px;
+    background-color: rgb(4, 189, 87);
+    color: white;
+    padding: 12px;
+    width: auto;
+    
+}
+
+.actions .bt { 
+    border: none;
+    background-color: rgb(161, 4, 4);
+    color: white;
+    padding: 13px;
+    margin: 7px;
+    width: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#deleteModal {
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(43, 16, 43);
+    border-radius: 10px;
+    display:none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#deleteModal h3 {
+ color: rgb(255, 255, 255);
+}
+
+.b-green{
+     color: white;
+     background-color: green;
+     border: none;
+     padding: 13px;
+     margin: 7px;
+     width: 100px;
+     cursor: pointer;
+     font-weight: bold;
+     border-radius: 3px;
+}
+
+.b-red{
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 13px;
+    margin: 7px;
+    width: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 3px;
+}

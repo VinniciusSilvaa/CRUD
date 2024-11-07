@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* HEADER */ 
+.header { 
+   background-color: rgb(177, 174, 4);
+   padding: 20px;
+
+}
+
+.header a {
+   margin-left: 80px;
+   font-size: x-large;
+   text-decoration: none;
+   font-weight :bold;
+   color : white;
+   cursor: pointer;
+}
+
+/* MAIN */
+.main {
+padding-top: 20px;
+}
+
+.container-main-header {
+   width: 900px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: auto;
+   padding: 7px;
+   border: 1px solid rgb(160, 172, 1);
+   margin-bottom: 5px;
+   border-radius: 3px;
+}
+
+.container-main-header h1 {
+   font-size:x-large;
+   color: rgb(177, 174, 4);
+   font-weight: bold;
+   padding: 10px;
+   margin: 10px;
+}
+
+.container-main-header a {
+    background-color: rgb(0, 0, 0);
+    color:  white;
+    border: none;
+    border-radius: 3px;
+    font-size :medium;
+    padding: 13px;
+    margin: 7px;
+    width: 57px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* FORM */ 
+.container-main {
+width: 900px;
+padding: 7px;
+margin: auto;
+}
+
+.container-main {
+    border: 1px solid rgb(160, 172, 1);
+    border-radius: 3px;
+}
+
+.form {
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.form label {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.form input{
+    width: 100%; 
+    padding: 13px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid rgb(160, 172, 1);
+    border-radius: 3px;
+}
+
+input:focus {
+    border-color: rgb(170, 170, 2); 
+}
+
+.but {
+    display: flex;
+    justify-content: end;
+}
+
+button{
+    padding: 13px;
+    margin: 7px;
+    width: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(0, 0, 0); 
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
